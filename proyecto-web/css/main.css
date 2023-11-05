@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arizonia&display=swap');
 #header {
     display:flex;
     justify-content: space-between;
 }
+
+body{
+    font-family:alata;
+    margin:0;
+}
+
 .logo-img{
     height: 54px;
     width: 78px;
@@ -16,15 +24,32 @@
 .nav-ul {
     display:flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 17px;
 }
 a {
     text-decoration: none;
-    font-size:20px;
-    color: #009C99;
+    font-size:15px;
+    color: #000000;
 }
 .text-header{
     color: #0CB04E;
     font-weight: bold;
     font-size: 26px;
+}
+
+.main-banner{
+    min-width: 100vw;
+    position:relative;
+    display:inline-block;
+}
+
+.banner-text{
+    font-family: arizonia;
+    color:#009C99;
+    font-size:40px;
+    position:absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
 }
